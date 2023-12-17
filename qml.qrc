@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="LeftBar.qml">src/ui/LeftBar/LeftBar.qml</file>
+        <file alias="RightBar.qml">src/ui/RightBar/RightBar.qml</file>
+        <file alias="main.qml">src/ui/main.qml</file>
+    </qresource>
+    <qresource prefix="/RightBar">
+        <file alias="LeftBar.qml">src/ui/LeftBar/LeftBar.qml</file>
+    </qresource>
+    <qresource prefix="/LeftBar">
+        <file alias="RightBar.qml">src/ui/RightBar/RightBar.qml</file>
+    </qresource>
+</RCC>
